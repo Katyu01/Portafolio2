@@ -1,0 +1,21 @@
+h2{
+    font-size: 5em;
+    color: blueviolet;
+}
+h3{
+    font-size: 3em;
+    color: brown;
+    
+}
+h4{
+    font-size: 2em;
+    color: aquamarine;
+}
+p.font-6em{
+    font-size: 6em;
+
+}
+.font-10m{
+    font-size: 10em;
+    color: azure;
+}
