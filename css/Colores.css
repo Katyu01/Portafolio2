@@ -1,0 +1,50 @@
+h1 {
+    font-size: 9em;
+    text-align: center;
+}
+.box-direction {
+    display: flex;
+    flex-direction:row
+}
+.box-style {
+    width: 300px;
+    height: 300px;
+    margin: 20px;; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:azure;
+    font-size: 1.5em;
+    text-align: 900;
+    
+    
+}
+.box-aqua {
+    background-color: aqua;
+ 
+}
+.box-darkcyan {
+    background-color: darkcyan;
+    
+}
+.box-blue {
+    background-color: blue;
+}
+.box-27-45-68 {
+    background-color: rgb(27,45,68);
+}
+.box-104-96-84{
+    background-color: rgb(104,96,84);
+}
+.box-45-67-78{
+    background-color: rgb(45,67,78);
+}
+.box-800000 {
+    background-color:#800000 ;
+}
+.box-0000CD {
+        background-color: #0000CD;
+}
+.box-66CDAA {
+    background-color: #66CDAA
+}
