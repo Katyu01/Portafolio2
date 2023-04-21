@@ -1,0 +1,99 @@
+.table-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid transparent;
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.th-Paquete {
+    border-top-left-radius: 20px;
+    background-color:burlywood;
+    color: white;
+}
+
+.th-Canal {
+    background-color: thistle;
+    color: white;
+    
+}
+
+.th-Gold {
+    background-color: burlywood;
+    color: white;
+    
+}
+
+.th-Basic {
+    background-color: burlywood;
+    color: white;
+  
+}
+
+.th-Silver {
+    background-color:thistle;
+    color: white;
+
+}
+
+.th-Platino {
+    background-color:thistle;
+    color: white;
+    border-top-right-radius: 20px;
+
+}
+
+.x-style {
+    color: rgb(228, 22, 22);
+}
+.bg-darckcyan {
+    background-color: darkcyan;
+    color: white;
+}
+.Channel{
+    background-color: burlywood;
+    color: white;
+}
+.Discovery-hyh {
+    background-color: burlywood;
+    color: white;
+}
+.discovery {
+    background-color:thistle;
+    color: white;
+}
+.HBO {
+    background-color:burlywood;
+    color: white;
+}
+.Check {
+    background-color:lavender;
+    color: white;
+}
+.img-x {
+    background-color:peachpuff;
+    color: white;
+}
+.Check-2 {
+    background-color:thistle;
+    color: white;
+}
+.img-2 {
+    background-color:peachpuff;
+    color: white;
+}
+.Check-3 {
+    background-color:lavender;
+    color: white; 
+}
+   
