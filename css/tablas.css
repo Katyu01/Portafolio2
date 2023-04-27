@@ -71,6 +71,7 @@ td {
 .discovery {
     background-color:thistle;
     color: white;
+    border-bottom-left-radius:20px ;
 }
 .HBO {
     background-color:burlywood;
@@ -83,6 +84,7 @@ td {
 .img-x {
     background-color:peachpuff;
     color: white;
+    border-bottom-right-radius:20px;
 }
 .Check-2 {
     background-color:thistle;
