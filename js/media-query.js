@@ -1,5 +1,16 @@
-let menuBar =document.getElementById("menuBar")
+let menuBar =document.getElementById("menuBar");
+let mainNav= document.getElementById("mainNav");
+let mainMenu= document.getElementById("mainMenu");
 
 menuBar.addEventListener("click",function(){
-    alert("hola, bienvenido")
-})
+    if(mainMenu.classList.contains("main-menu")){
+        mainMenu.classList.remove("main-menu");
+        mainMenu.classList.add("main-menu-block");
+    }
+    else{
+        mainMenu.classList.add("main-menu");
+        mainMenu.classList.remove("main-menu-block");
+    }
+   
+   
+});
