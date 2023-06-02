@@ -1,0 +1,26 @@
+
+
+.box-style {
+    width: 300px;
+    height: 300px;
+    margin: 20px;; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:azure;
+    font-size: 1.5em;
+    text-align: 900;
+    
+    
+}
+.box-aqua {
+    background-color: aqua;
+ 
+}
+.box-darkcyan {
+    background-color: darkcyan;
+    
+}
+.box-blue {
+    background-color: blue;
+}

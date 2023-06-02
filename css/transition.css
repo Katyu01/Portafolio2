@@ -1,0 +1,16 @@
+
+.box-style {
+    width: 600px;
+    height: 600px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:azure;
+    font-size: 1.5em;
+    text-align: 900;
+    
+    
+}
+.box-aqua {
+    background-color: aqua; 
+}
