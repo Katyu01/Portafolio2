@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     padding: 0;
+<<<<<<< HEAD
     margin:0;
 }
 
@@ -278,4 +279,10 @@ label {
 
 .contact-icon img:hover {
     transform: scale(1.2);
+=======
+    margin: 0;
+}
+:root {
+    
+>>>>>>> cad2214c2504cc4e11992271e58207b13d692168
 }
