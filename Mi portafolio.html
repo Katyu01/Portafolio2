@@ -17,9 +17,9 @@
         <div class="navbar">
             <nav>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Portafolio</a></li>
-                    <li><a href="#">Sobre mi</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
                 </ul>
             </nav>
         </div>
@@ -45,36 +45,76 @@
         
     </div>
 </section>
-<div id="briefcase"></div>
 
-<section class="briefcase">
-    <div class="briefcase-section container">
-        <h2><span>Briefcase |</span> Portafolio</h2>
-        <div class="briefcase-grid">
-            <div><img src="img/catalogo.PNG" alt=""></div>
-            <div><img src="img/calendario.PNG" alt=""></div>
-            <div><img src="img/maquetación.PNG" alt=""></div>
-            <div><img src="img/margenes.PNG" alt=""></div>
-            <div><img src="img/media.PNG" alt=""></div>
-            <div><img src="img/tablas.PNG" alt=""></div>
-  </header>
-</section>
 
-<section class="about" id="about-me">
-<div class="about-flex container">
-<div class="about-info">
-    <p>Mi nombre es Karen Gutiérrez, Soy estudiante etapa lectiva de producción en multimedia; con conocimientos en lenguaje de programación html,css y js,me gusta la música y soy amante del buen cine.</p>
-    <p><br>Soy muy creativa, responsable,respetuosa, me gusta el trabajo en equipo y siempre aprender cosas nuevas.</p>
-</div>
-<div>
-    <div class="social">
-        <a href="#"><img src="icons/github.svg" alt=""></a>
-        <a href="#"><img src="icons/linkedin.svg" alt=""></a>
-        <a href="#"><img src="icons/envelope-solid.svg" alt=""></a>   
+ <!-- SECCION SOBRE MI -->
+ <section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p><span>Hola, soy Karen Gutiérrez</span> estudiante de producción Multimedia con enfásis en diseño gráfico y lenguaje css, html y js.  Soy muy respetuosa y responsable; me gusta el trabajo en equipo, amo los animales y el arte; en Mi portafolio  puedes encontrar algunos de mis proyectos</p>
 
-    </div>
-</div>
-</div>
+
+  <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/calendario.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Calendario</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/maquetación.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Maquetación</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/catalogo.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Catalogo</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/margenes.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Margenes</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/media.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Menú</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/tablas.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Tablas</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+     <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/karen-gutierrez-0090b1277"><img src="icons/linkedin.svg" alt=""></a>
+            <a href=" https://katyu01.github.io/Portafolio2/"><img src="icons/github.svg" alt=""></a>
+            <a href="karenyuliana0105@gmail.com"><img src="icons/envelope-solid.svg" alt=""></a>
+            <h3>karenyuliana0105@gmail.com</h3>
+            <h4>Pitalito Huila</h3>
+            
+        </div>
+    </footer>
+
 </body>
-
 </html>
