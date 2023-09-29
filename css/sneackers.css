@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+   
+}
+.box-main-menu {
+    grid-area: box-main-menu;
+}
+.main-menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 120px;
+    margin-top: 30px;
+  }
+  .main-menu > li > a {
+    color: rgb(64,64,64,.9);
+    text-decoration: none;
+    display: block;
+    margin: 0 30px;
+    font-size: 1.3em;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+  }
+  .sneakers-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:2em ;
+  }
+  .header{
+    width: 100%;
+    height: 100px;
+  }
+  .main-content {
+    display: grid;
+    grid-template: "empty-left box-left empty-center box-info empty-right" 400px/
+                     240px     1fr        180px       1fr         240px;
+
+  }
+  .box-left {
+    grid-area:box-left;
+    grid-template: "box-img"
+                   "box-thumbnail" /
+                    1fr;
+  }
+
+  .box-img{
+    grid-area: box-img;
+  }
+  .main-img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .box-thumbnail {
+    grid-area: box-thumbnail;
+    display: grid;
+    grid-template:"thumb-1  thumb-2  thumb-3  thumb-4"/ 
+                     1fr       1fr     1fr      1fr
+  }
+
+ .thumb-1 {
+    grid-area: thumb-1;
+ }
+ .thumb-2 {
+    grid-area: thumb-2;
+ }
+ .thumb-3 {
+    grid-area: thumb-3;
+ }
+ .thumb-4 {
+    grid-area: thumb-4;
+ }
+ .thumb{
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+
+ }
+ .box-info{
+    grid-area: box-info;
+ }
+ .line{
+    background-color: azure;
+    height: 1px;
+    width: 80%;
+    position:absolute ;
+    margin-top: 15px;
+ }
