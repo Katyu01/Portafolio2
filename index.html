@@ -1,45 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Mi Portafolio</title>
-     <link rel="stylesheet" href="css/Style.css">
-     <link rel="stylesheet" href="icons/all.css">
-     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="css/Style.css">
+<<<<<<< HEAD
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+   
 </head>
 <body>
-     <i class="fa-solid fa-house"></i>
-     <div><h1>Este es mi primer Portafolio</h1>
-          <h2>Una pequeña muestra</h2>
-          <ul>
-               <li><a href="index.html">Inicio</li>
-                    <li><a href="Fuentes.html">Fuentes</li>
-                    <li><a href="listas.html">Lista</li>
-                    <li><a href="colores.html">Colores</li>
-                    <li><a href="Margenes.html">Margenes</a></li>
-                    <li><a href="catalogo.html">catalogo</a></li>
-                    <li><a href="Tablas.html">Tablas</a></li>
-                    <li><a href="menu-horizontal.html">Menu</a></li>
-                    <li><a href="media query.html">media</a></li>
-                    <li><a href="posicionamiento.html">posicionamiento</a></li>
-                    <li><a href="transition.html">tansición</a></li>
-                    <li><a href="menu-subitems.html">menú-subitems</a></li>
-                    <li><a href="menu-subitems2.html">menú-subitems2</a></li>
-                    <li><a href="flexbox.html">Flexbox</a></li>
-                    <li><a href="Calendario.html">Calendario</a></li>
-                    <li><a href="maquetacion.html">Maquetación</a></li>
-                    <li><a href="maquetacion II.html">Maquetación II</a></li>
-                    <li><a href="starbucks.html">starbucks</a></li>
-                    <li><a href="Mi portafolio.html">Mi portafolio</a></li>
-                    <li><a href="sneackers.html">Mi portafolio</a></li>
+  <header>
+    <div class="hero">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                </ul>
+            </nav>
+        </div>
+        <img src="img/tea-time-3240766_1920.jpg" alt="">
+    </div>
 
-                         <ul>
-                              <li><a href="Fuente 1.html">Fuente 1</li>
-                              <li><a href="Fuente 2.html">Fuente 2</li>
-                              <li><a href="Fuente 3.html">Fuente 3</li>     
-                         </ul>
-          </ul>
-     </div>
+    <div class="profile">
+        <div class="square"></div>
+        <div class="circle-trans"></div>
+        <div class="circle"></div>
+        <div class="profile-img"><img src="img/WhatsApp Image 2023-08-18 at 5.15.27 AM.jpeg" alt=""></div>
+        <div class="square-text">KAREN GUTIÉRREZ </div>
+        <div class="square-text-2">DISEÑO GRÁFICO Y PROGRAMACIÓN</div>
+        <div class="contact-icon">
+            <a href="https://www.linkedin.com/in/karen-gutierrez-0090b1277"><img src="icons/linkedin.svg" alt=""></a>
+            <a href=" https://katyu01.github.io/Portafolio2/"><img src="icons/github.svg" alt=""></a>
+            <a href="karenyuliana0105@gmail.com"><img src="icons/envelope-solid.svg" alt=""></a>
+            
+
+        </div>
+        <div class="square-text-3"><a href="#about-me"><span>About me |</span> Sobre Mi</a></div>
+        
+        
+    </div>
+</section>
+
+
+ <!-- SECCION SOBRE MI -->
+ <section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p><span>Hola, soy Karen Gutiérrez</span> estudiante de producción Multimedia con enfásis en diseño gráfico y lenguaje css, html y js.  Soy muy respetuosa y responsable; me gusta el trabajo en equipo, amo los animales y el arte; en Mi portafolio  puedes encontrar algunos de mis proyectos</p>
+
+
+  <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/calendario.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Calendario</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/maquetación.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Maquetación</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/catalogo.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Catalogo</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/sneackers.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Sneackers</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/media.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Menú</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/tablas.PNG" alt="">
+                    <div class="overlay">
+                    <a href="index2.html">ver todos 
+                    </a>
+                        <h3>proyectos</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+     <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/karen-gutierrez-0090b1277"><img src="icons/linkedin.svg" alt=""></a>
+            <a href=" https://katyu01.github.io/Portafolio2/"><img src="icons/github.svg" alt=""></a>
+            <a href="karenyuliana0105@gmail.com"><img src="icons/envelope-solid.svg" alt=""></a>
+            <h3>karenyuliana0105@gmail.com</h3>
+            <h4>Pitalito Huila</h3>
+            
+        </div>
+    </footer>
+
 </body>
+</html>
