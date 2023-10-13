@@ -4,14 +4,14 @@
     font-family: Verdana, sans-serif;
    
 }
- .line{
+/*  .line{
     background-color: azure;
     height: 1px;
     width: 80%;
     position:absolute ;
     margin-top: 5px;
-    
- }
+     */
+ 
 .box-main-menu {
     grid-area: box-main-menu;
 }
