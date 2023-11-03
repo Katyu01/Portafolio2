@@ -243,6 +243,7 @@ body{
     margin-top: 15px;
    background-color:  rgb(247,248,253);
    border-radius: 10px;
+   margin-right: 250px;
 }
 .box-minus, .box-cantidad, .box-plus {
     width:50px;
@@ -272,10 +273,11 @@ body{
     font-weight: 500;
     margin-top: 40px;
 }
-.valorTotal{
+.valor-total{
     margin-top: 25px;
-    font-weight: 700;
-    font-size: 4em;
+    font-weight: 600;
+    font-size: 2em;
+    
 
 }
 /* Fonts */
